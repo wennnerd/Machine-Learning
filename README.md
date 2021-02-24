@@ -1,4 +1,4 @@
-# Learning basic of Machine Learning
+# Machine Learning Notes
 
 Codecademy course note: **Build a Machine Learning model with Python** 
 

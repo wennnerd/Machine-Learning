@@ -4,4 +4,4 @@ Codecademy course note: **Build a Machine Learning model with Python**
 
 ## Contents
 
-[Introduction](Machine-Learning/ML-notes/Introduction.md)
+[Introduction](https://github.com/wennnerd/Machine-Learning/blob/main/ML-notes/Introduction.md)

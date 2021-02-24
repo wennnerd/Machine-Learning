@@ -1,1 +1,1 @@
-# Basic of Machine Learning
+# Learning basic of Machine Learning

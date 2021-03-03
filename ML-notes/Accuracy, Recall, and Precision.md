@@ -65,3 +65,5 @@ First, define our terms of grade:
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= precision = \frac{TP}{TP + FP} + " >
 
 ## F1 score <a name="f1"/>
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= F1 = 2*\frac{Precision*Recall}{Precision+Recall} + " >

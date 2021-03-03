@@ -46,10 +46,14 @@ First, define our terms of grade:
 
 ## Accuracy <a name="acc"/>
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{True Positive + True Negative}{True Positive + False Negative + False Positive + True Negative}" style="border:none;">
+在所有情況中，正確判斷真假的比例
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{TP + TN}{TP + FN + FP + TN}" style="border:none;">
 
 ## Recall <a name="recall"/>
 
-![1](http://latex.codecogs.com/svg.latex?\int_a^bf(x)\ dx)
+為真的情況下，有多少被正確判斷出來
 
 ## Precision <a name="pre"/>
+
+判斷為真的情況下，有多少是真的真

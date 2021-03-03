@@ -66,4 +66,6 @@ First, define our terms of grade:
 
 ## F1 score <a name="f1"/>
 
+如果今天我覺得Precision和Recall都同等重要，我想要用一個指標來統合標誌它，這就是F1 Score
+
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= F1 = 2*\frac{Precision*Recall}{Precision+Recall} + " >

@@ -54,6 +54,10 @@ First, define our terms of grade:
 
 為真的情況下，有多少被正確判斷出來
 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= recall = \frac{TP}{TP + FN} + " >
+
 ## Precision <a name="pre"/>
 
 判斷為真的情況下，有多少是真的真
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= accuracy = \frac{TP}{TP + FP} + " >

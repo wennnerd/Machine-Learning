@@ -48,7 +48,7 @@ First, define our terms of grade:
 
 在所有情況中，正確判斷真假的比例
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{TP + TN}{TP + FN + FP + TN}" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{TP + TN}{TP + FN + FP + TN} + " style="border:none;">
 
 ## Recall <a name="recall"/>
 

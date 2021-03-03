@@ -7,6 +7,7 @@
 [**Recall**](#recall)
 
 [**Precision**](#pre)
+
 -----
 Consider that using machine learning algorithm to predict whether or not you will get above a B on a test. Then we have the following feature:  
 

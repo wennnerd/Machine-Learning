@@ -28,11 +28,11 @@ First, define our terms of grade:
 
 <table>
     <tr>
-        <td>列一</td> 
-        <td colspan="2">合併行</td> 
+        <td>Table</td> 
+        <td colspan="2">Predict Class</td> 
    </tr>
     <tr>
-        <td rowspan="2">合併列</td>
+        <td rowspan="2">Actual \n Class</td>
         <td >True Positive</td> 
         <td >False Negative</td> 
     </tr>

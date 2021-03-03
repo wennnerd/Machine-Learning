@@ -46,7 +46,7 @@ First, define our terms of grade:
 
 ## Accuracy <a name="acc"/>
 
-$$\frac{a-1}{b-1} \quad and \quad {a+1\over b+1}$$
+<img src="https://latex.codecogs.com/png.latex? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
 
 ## Recall <a name="recall"/>
 

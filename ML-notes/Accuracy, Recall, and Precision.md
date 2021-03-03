@@ -34,11 +34,11 @@ First, define our terms of grade:
         <td>列三</td> 
    </tr>
     <tr>
-        <td rowspan="2">合併列</td>    
-        <td >行二列二</td>  
+        <td rowspan="2">合併列</td>     
     </tr>
     <tr>
-        <td >行三列二</td>  
+        <td >True Positive</td> 
+        <td >False Positive</td>  
     </tr>
 </table>
 

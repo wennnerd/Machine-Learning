@@ -21,11 +21,6 @@ First, define our terms of grade:
 * False Positive: The algorithm predicted you would get above a B, and you didn’t.
 * False Negative: The algorithm predicted you would get below a B, and you didn’t.
 
-| Tables        | Predict class||
-| :-------------: |:-------------:| :-----:|
-| 第三欄        | True Positive      | False Negative |
-| 第二欄        | False Positive      |   True Negative |
-
 <table>
     <tr>
         <td > </td> 
@@ -51,7 +46,7 @@ First, define our terms of grade:
 
 ## Accuracy <a name="acc"/>
 
-The simple way to 
+$$\frac{a-1}{b-1} \quad and \quad {a+1\over b+1}$$
 
 ## Recall <a name="recall"/>
 

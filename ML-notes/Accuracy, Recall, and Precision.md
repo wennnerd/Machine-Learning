@@ -29,6 +29,7 @@ First, define our terms of grade:
 <table>
     <tr>
         <td>列一</td> 
+        <td colspan="2">合併行</td> 
         <td>列二</td> 
         <td>列三</td> 
    </tr>

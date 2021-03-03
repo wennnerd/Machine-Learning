@@ -10,13 +10,20 @@
 
 -----
 Consider that using machine learning algorithm to predict whether or not you will get above a B on a test. Then we have the following feature:  
-
 * The number of hours you studied this week.  
 * The number of hours you watched Netflix this week.  
 * The time you went to bed the night before the test.  
 * Your average in the class before taking the test.  
 
+First, define our terms of grade:  
+* True Positive: The algorithm predicted you would get above a B, and you did.
+* True Negative: The algorithm predicted you would get below a B, and you did.
+* False Positive: The algorithm predicted you would get above a B, and you didn’t.
+* False Negative: The algorithm predicted you would get below a B, and you didn’t.
+
 ## Accuracy <a name="acc"/>
+
+The simple way to 
 
 ## Recall <a name="recall"/>
 

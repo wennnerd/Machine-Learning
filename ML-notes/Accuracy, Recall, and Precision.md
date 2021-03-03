@@ -1,9 +1,9 @@
 # Accuracy, Recall, and Precision
 
-Contents
-[**Accuracy**](#acc)
-[**Recall**](#recall)
-[**Precision**](#pre)
+Contents    
+[**Accuracy**](#acc)  
+[**Recall**](#recall)  
+[**Precision**](#pre)  
 
 ## Accuracy <a name="acc"/>
 

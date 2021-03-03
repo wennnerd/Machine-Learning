@@ -29,10 +29,8 @@ First, define our terms of grade:
 <table>
     <tr>
         <td > </td> 
-        <td colspan="2">Predict Class</td> 
+        <td colspan="3">Predict Class</td> 
         <td > </td> 
-        <td >Positive</td> 
-        <td >Negative</td> 
    </tr>
     <tr>
         <td rowspan="3">Actual Class</td>
@@ -41,10 +39,12 @@ First, define our terms of grade:
         <td >Negative</td> 
     </tr>
     <tr>
+        <td >Positive</td> 
         <td >True Positive</td> 
         <td >False Negative</td> 
     </tr>
     <tr>
+        <td >Negative</td>
         <td >False Positive</td>  
         <td >True Negative</td>
     </tr>

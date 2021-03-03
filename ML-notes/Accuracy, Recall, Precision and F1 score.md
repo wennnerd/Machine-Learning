@@ -1,4 +1,4 @@
-# Accuracy, Recall, and Precision
+# Accuracy, Recall, Precision and F1 score
 
 **Contents**
 

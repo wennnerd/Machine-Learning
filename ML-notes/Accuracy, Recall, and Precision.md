@@ -26,6 +26,20 @@ First, define our terms of grade:
 | 第三欄        | True Positive      | False Negative |
 | 第二欄        | False Positive      |   True Negative |
 
+<table>
+    <tr>
+        <td>列一</td> 
+        <td>列二</td> 
+   </tr>
+    <tr>
+        <td rowspan="2">合併列</td>    
+        <td >行二列二</td>  
+    </tr>
+    <tr>
+        <td >行三列二</td>  
+    </tr>
+</table>
+
 ## Accuracy <a name="acc"/>
 
 The simple way to 

@@ -46,7 +46,7 @@ First, define our terms of grade:
 
 ## Accuracy <a name="acc"/>
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{True Positive+True Negative}{True Positive+False Negative+False Positive+True Negative}" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{True Positive + True Negative}{True Positive + False Negative + False Positive + True Negative}" style="border:none;">
 
 ## Recall <a name="recall"/>
 

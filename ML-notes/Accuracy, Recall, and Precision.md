@@ -21,6 +21,11 @@ First, define our terms of grade:
 * False Positive: The algorithm predicted you would get above a B, and you didn’t.
 * False Negative: The algorithm predicted you would get below a B, and you didn’t.
 
+| Tables        | Predict class|
+| :-------------: |:-------------:| :-----:|
+| 第三欄        | True Positive      | False Negative |
+| 第二欄        | False Positive      |   True Negative |
+
 ## Accuracy <a name="acc"/>
 
 The simple way to 

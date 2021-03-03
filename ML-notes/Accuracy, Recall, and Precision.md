@@ -30,9 +30,13 @@ First, define our terms of grade:
     <tr>
         <td > </td> 
         <td colspan="2">Predict Class</td> 
+        <td > </td> 
+        <td >Positive</td> 
+        <td >Negative</td> 
    </tr>
     <tr>
         <td rowspan="3">Actual Class</td>
+        <td > </td> 
         <td >Positive</td> 
         <td >Negative</td> 
     </tr>

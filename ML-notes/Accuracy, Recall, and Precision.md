@@ -8,6 +8,8 @@
 
 [**Precision**](#pre)
 
+[**F1 Score**](#f1)
+
 -----
 Consider that using machine learning algorithm to predict whether or not you will get above a B on a test. Then we have the following feature:  
 * The number of hours you studied this week.  
@@ -60,4 +62,6 @@ First, define our terms of grade:
 
 判斷為真的情況下，有多少是真的真
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= accuracy = \frac{TP}{TP + FP} + " >
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= precision = \frac{TP}{TP + FP} + " >
+
+## F1 score <a name="f1"/>

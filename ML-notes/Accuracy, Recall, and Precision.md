@@ -30,6 +30,7 @@ First, define our terms of grade:
     <tr>
         <td>列一</td> 
         <td>列二</td> 
+        <td>列三</td> 
    </tr>
     <tr>
         <td rowspan="2">合併列</td>    

@@ -29,7 +29,7 @@ First, define our terms of grade:
 <table>
     <tr>
         <td > </td> 
-        <td colspan="3"><center>Predict Class<center></td> 
+        <center><td colspan="3">Predict Class</td>/center>
    </tr>
     <tr>
         <td rowspan="3">Actual Class</td>

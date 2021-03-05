@@ -30,6 +30,8 @@ The Sigmoid Function is a special case of the more general Logistic Function, wh
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= h(z) = \frac{1}{1 %2B exp(-z)}" >
 
+By plugging the log-odds into the Sigmoid Function, defined below, we map the log-odds to the range [0,1].
+
 ## Log Loss
 
 The loss function for Logistic Regression, known as Log Loss, is given below:

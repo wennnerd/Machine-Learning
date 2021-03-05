@@ -11,3 +11,5 @@ To predict the probability of a data sample belonging to a class:
 ## Log-Odds
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= log(\frac{p}{1-p}) = \beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k}" >
+
+Therefore, <img src="http://chart.googleapis.com/chart?cht=tx&chl= p = \frac{exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}{1+exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}" > which <img src="http://chart.googleapis.com/chart?cht=tx&chl= p" > is the probability of success.

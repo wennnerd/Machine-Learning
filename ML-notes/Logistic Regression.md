@@ -84,6 +84,7 @@ model.fit(features, labels)
 The model is trained, we can access a few useful attributes of the LogisticRegression object.  
 * ```model.coef_``` is a vector of the coefficients of each feature  
 * ```model.intercept_``` is the intercept   
+
 With our trained model we are able to predict whether new data points belong to the positive class using the ```.predict()``` method! ```.predict()``` takes a matrix of features as a parameter and returns a vector of labels 1 or 0 for each sample.
 
 ```py

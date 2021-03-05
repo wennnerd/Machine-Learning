@@ -10,6 +10,8 @@
 
 [Classification Thresholding](#classthre)  
 
+[Scikit-Learn](#sklearn)
+
 -----
 
 Consider an simple data which ```y``` is either 1 (passing), or 0 (failing), and we have one feature, ```num_hours_studied```.
@@ -73,4 +75,18 @@ def log_loss(probabilities,actual_class):
 
 Many machine learning algorithms, including Logistic Regression, spit out a classification probability as their result. Once we have this probability, we need to make a decision on what class the sample belongs to. This is where the classification threshold comes in. We can choose to change the threshold of classification based on the use-case of our model.  
 
+## Scikit-Learn <a name="sklearn"/>
 
+```py
+from sklearn.linear_model import LogisticRegression
+model.fit(features, labels)
+```
+The model is trained, we can access a few useful attributes of the LogisticRegression object.  
+* ```model.coef_``` is a vector of the coefficients of each feature  
+* ```model.intercept_``` is the intercept  
+With our trained model we are able to predict whether new data points belong to the positive class using the ```.predict()``` method! ```.predict()``` takes a matrix of features as a parameter and returns a vector of labels 1 or 0 for each sample.
+
+```py
+model.predict(features)
+model.predict_proba(features)
+```

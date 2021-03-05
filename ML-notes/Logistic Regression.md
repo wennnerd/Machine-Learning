@@ -12,7 +12,9 @@ To predict the probability of a data sample belonging to a class:
 
 Calculate the odds of an event occurring as follows:
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= Odds = \frac{P(success)}{(P(fail))}" >
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= Odds = \frac{P(success)}{P(fail)}" >
+
+Logistic regression model:
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= log(\frac{p}{1-p}) = \beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k}" >
 

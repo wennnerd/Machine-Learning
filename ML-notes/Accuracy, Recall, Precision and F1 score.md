@@ -50,22 +50,22 @@ First, define our terms of grade:
 
 在所有情況中，正確判斷真假的比例
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= accuracy = \frac{TP + TN}{TP + FN + FP + TN} + " >
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= accuracy = \frac{TP %2B TN}{TP %2B FN %2B FP %2B TN} + " >
 
 ## Recall <a name="recall"/>
 
 為真的情況下，有多少被正確判斷出來
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= recall = \frac{TP}{TP + FN} + " >
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= recall = \frac{TP}{TP %2B FN} + " >
 
 ## Precision <a name="pre"/>
 
 判斷為真的情況下，有多少是真的真
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= precision = \frac{TP}{TP + FP} + " >
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= precision = \frac{TP}{TP %2B FP} + " >
 
 ## F1 score <a name="f1"/>
 
 如果今天我覺得Precision和Recall都同等重要，我想要用一個指標來統合標誌它，這就是F1 Score
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= F1 = 2*\frac{Precision*Recall}{Precision+Recall} + " >
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= F1 = 2*\frac{Precision*Recall}{Precision%2BRecall}" >

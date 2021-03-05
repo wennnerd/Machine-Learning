@@ -1,10 +1,10 @@
 # Logistic Regression
 
 **Contents**
-[Log-Odds] 
-[Sigmoid Function]
-[Log Loss]
-[Classification Thresholding]
+[Log-Odds](#logodds)   
+[Sigmoid Function](#sigf)  
+[Log Loss](#logloss)  
+[Classification Thresholding](#classthre)  
 
 Consider an simple data which ```y``` is either 1 (passing), or 0 (failing), and we have one feature, ```num_hours_studied```.
 In this example, we want to predict the propability of passing which does not provided by output of **Linear Regression model**. Therefore, we step in **Logistic Regression**.
@@ -14,7 +14,7 @@ To predict the probability of a data sample belonging to a class:
 2. multiply each of the feature coefficients by their respective feature value to get what is known as the **log-odds**.  
 3. place the log-odds into the **sigmoid function** to link the output to the range [0,1], giving us a probability.  
 
-## Log-Odds
+## Log-Odds <a name="logodds"/>
 
 Calculate the odds of an event occurring as follows:
 
@@ -36,7 +36,7 @@ def log_odds(features, coefficients,intercept):
   return np.dot(features,coefficients) + intercept
 ```
 
-## Sigmoid function
+## Sigmoid function <a name="sigf"/>
 
 The Sigmoid Function is a special case of the more general Logistic Function, where Logistic Regression gets its name.
 
@@ -51,7 +51,7 @@ def sigmoid(z):
     return 1/denominator
 ```
 
-## Log Loss
+## Log Loss <a name="logloss"/>
 
 The loss function for Logistic Regression, known as Log Loss, is given below:
 
@@ -63,7 +63,7 @@ def log_loss(probabilities,actual_class):
   return np.sum(-(1/actual_class.shape[0])*(actual_class*np.log(probabilities) + (1-actual_class)*np.log(1-probabilities)))
  ```
  
-## Classification Thresholding
+## Classification Thresholding <a name="classthre"/>
 
 Many machine learning algorithms, including Logistic Regression, spit out a classification probability as their result. Once we have this probability, we need to make a decision on what class the sample belongs to. This is where the classification threshold comes in. We can choose to change the threshold of classification based on the use-case of our model.  
 

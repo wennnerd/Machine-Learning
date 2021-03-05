@@ -90,5 +90,10 @@ With our trained model we are able to predict whether new data points belong to 
 
 ```py
 model.predict(features)
+```
+
+If we are more interested in the predicted probability of the data samples belonging to the positive class than the actual class, we can use the ```.predict_proba()``` method. 
+
+```py
 model.predict_proba(features)
 ```

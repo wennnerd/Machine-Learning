@@ -1,6 +1,7 @@
 # Logistic Regression
 
 **Contents**
+
 [Log-Odds](#logodds)   
 [Sigmoid Function](#sigf)  
 [Log Loss](#logloss)  

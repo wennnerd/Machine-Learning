@@ -12,6 +12,8 @@
 
 [Scikit-Learn](#sklearn)
 
+[Feature Importance](#fi)
+
 -----
 
 Consider an simple data which ```y``` is either 1 (passing), or 0 (failing), and we have one feature, ```num_hours_studied```.
@@ -97,3 +99,11 @@ If we are more interested in the predicted probability of the data samples belon
 ```py
 model.predict_proba(features)
 ```
+
+## Feature Importance <a name="fi"/>
+
+Discuss how to interpret the feature coefficients from a logistic model. We gives a normalized data to help us understand the meaning of feature cofficients:
+
+* Features with larger, positive coefficients will increase the probability of a data sample belonging to the positive class  
+* Features with larger, negative coefficients will decrease the probability of a data sample belonging to the positive class  
+* Features with small, positive or negative coefficients have minimal impact on the probability of a data sample belonging to the positive class  

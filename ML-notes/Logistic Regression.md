@@ -20,4 +20,6 @@ Logistic regression model:
 
 Therefore, 
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= p = \frac{exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}{1 %2B exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}" > which <img src="http://chart.googleapis.com/chart?cht=tx&chl= p" > is the probability of success.
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= p = \frac{exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}{1 %2B exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}" > 
+
+which <img src="http://chart.googleapis.com/chart?cht=tx&chl= p" > is the probability of success.

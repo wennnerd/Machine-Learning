@@ -24,6 +24,11 @@ Therefore,
 
 which <img src="http://chart.googleapis.com/chart?cht=tx&chl= p" > is the probability of success.
 
+```py
+def log_odds(features, coefficients,intercept):
+  return np.dot(features,coefficients) + intercept
+```
+
 ## Sigmoid function
 
 The Sigmoid Function is a special case of the more general Logistic Function, where Logistic Regression gets its name.
@@ -32,8 +37,21 @@ The Sigmoid Function is a special case of the more general Logistic Function, wh
 
 By plugging the log-odds into the Sigmoid Function, defined below, we map the log-odds to the range [0,1].
 
+```py
+def sigmoid(z):
+    denominator = 1 + np.exp(-z)
+    return 1/denominator
+```
+
 ## Log Loss
 
 The loss function for Logistic Regression, known as Log Loss, is given below:
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(h(z^{(i)})) %2B (1-y^{(i)})log(1-h(z^{(i)}))]" >
+
+```py
+def log_loss(probabilities,actual_class):
+  return np.sum(-(1/actual_class.shape[0])*(actual_class*np.log(probabilities) + (1-actual_class)*np.log(1-probabilities)))
+ ```
+ 
+## 

@@ -23,3 +23,9 @@ Therefore,
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= p = \frac{exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}{1 %2B exp(\beta_{0}%2B\beta_{1}x_{1}%2B\cdots%2B\beta_{k}x_{k})}" > 
 
 which <img src="http://chart.googleapis.com/chart?cht=tx&chl= p" > is the probability of success.
+
+## Sigmoid function
+
+The Sigmoid Function is a special case of the more general Logistic Function, where Logistic Regression gets its name.
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= h(z) = \frac{1}{1 %2B exp(-z)}" >

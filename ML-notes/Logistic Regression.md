@@ -57,4 +57,8 @@ def log_loss(probabilities,actual_class):
   return np.sum(-(1/actual_class.shape[0])*(actual_class*np.log(probabilities) + (1-actual_class)*np.log(1-probabilities)))
  ```
  
-## 
+## Classification Thresholding
+
+Many machine learning algorithms, including Logistic Regression, spit out a classification probability as their result. Once we have this probability, we need to make a decision on what class the sample belongs to. This is where the classification threshold comes in. We can choose to change the threshold of classification based on the use-case of our model.  
+
+

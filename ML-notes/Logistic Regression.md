@@ -29,3 +29,9 @@ which <img src="http://chart.googleapis.com/chart?cht=tx&chl= p" > is the probab
 The Sigmoid Function is a special case of the more general Logistic Function, where Logistic Regression gets its name.
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= h(z) = \frac{1}{1 %2B exp(-z)}" >
+
+## Log Loss
+
+The loss function for Logistic Regression, known as Log Loss, is given below:
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(h(z^{(i)})) %2B 1-y^{(i)}log(1-h(z^{(i)}))]" >

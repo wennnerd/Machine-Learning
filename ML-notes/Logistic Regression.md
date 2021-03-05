@@ -34,4 +34,4 @@ The Sigmoid Function is a special case of the more general Logistic Function, wh
 
 The loss function for Logistic Regression, known as Log Loss, is given below:
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(h(z^{(i)})) %2B 1-y^{(i)}log(1-h(z^{(i)}))]" >
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(h(z^{(i)})) %2B (1-y^{(i)})log(1-h(z^{(i)}))]" >

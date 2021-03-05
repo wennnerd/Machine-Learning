@@ -79,6 +79,7 @@ Many machine learning algorithms, including Logistic Regression, spit out a clas
 
 ```py
 from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
 model.fit(features, labels)
 ```
 Use ```.fit()``` to train our model, we can access a few useful attributes of the LogisticRegression object.  

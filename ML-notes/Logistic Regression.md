@@ -81,7 +81,7 @@ Many machine learning algorithms, including Logistic Regression, spit out a clas
 from sklearn.linear_model import LogisticRegression
 model.fit(features, labels)
 ```
-The model is trained, we can access a few useful attributes of the LogisticRegression object.  
+Use ```.fit()``` to train our model, we can access a few useful attributes of the LogisticRegression object.  
 * ```model.coef_``` is a vector of the coefficients of each feature  
 * ```model.intercept_``` is the intercept   
 
